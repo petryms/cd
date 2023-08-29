@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.message {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.user-message {
+  background-color: #d5f4e6;
+}
+
+.other-message {
+  background-color: #FDF2E9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.avatar-link {
+  text-decoration: none;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.username-link {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+.timestamp {
+  color: #888;
+  font-size: 12px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.forwarded {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.forwarded-message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.forwarded-sender {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.forwarded-avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.forwarded-info {
+  flex-grow: 1;
+}
+
+.forwarded-username {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.forwarded-text {
+  margin-top: 5px;
+}
+
+.attachments {
+  margin-top: 10px;
+}
+
+.photo-link {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.audio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.audio-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  margin-right: 5px;
+}
+
+.audio-info {
+  flex-grow: 1;
+}
+
+.audio-title {
+  font-weight: bold;
+}
+
+.audio-artist {
+  color: #888;
+  font-size: 12px;
+}
+
+.doc {
+  margin-bottom: 5px;
+}
+
+.doc-link {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+.sticker {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.sticker img {
+  width: 100px;
+  height: 100px;
+}
+
+.gift {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.gift img {
+  width: 100px;
+  height: 100px;
+}
+
+.audio-message {
+  margin-bottom: 5px;
+}
